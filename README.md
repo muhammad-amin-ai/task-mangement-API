@@ -65,7 +65,7 @@ A professional Task Management API built with a FastAPI backend and a connected 
 | **ORM** | SQLAlchemy |
 | **Validation** | Pydantic |
 | **Authentication** | JWT, OAuth2 |
-| **Frontend** | Frontend Application |
+| **Frontend** | - React 18 ,  Vite , Tailwind ,  CSS ,  JavaScript (JSX) |
 | **Tools** | Git, GitHub, VS Code |
 
 ---
@@ -92,7 +92,7 @@ task-management-API/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/task-management-API.git
+git clone https://github.com/abdullahamin-ai/task-management-API.git
 cd task-management-API
 ```
 
