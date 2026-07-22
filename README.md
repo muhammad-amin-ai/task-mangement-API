@@ -65,7 +65,7 @@ A professional Task Management API built with a FastAPI backend and a connected 
 | **ORM** | SQLAlchemy |
 | **Validation** | Pydantic |
 | **Authentication** | JWT, OAuth2 |
-| **Frontend** | - React 18 ,  Vite , Tailwind ,  CSS ,  JavaScript (JSX) |
+| **Frontend** | React 18 ,  Vite , Tailwind ,  CSS ,  JavaScript (JSX) |
 | **Tools** | Git, GitHub, VS Code |
 
 ---
