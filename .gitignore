@@ -1,0 +1,3 @@
+.venv/
+# Root-level ignore rules only.
+# Backend and frontend maintain their own .gitignore files.

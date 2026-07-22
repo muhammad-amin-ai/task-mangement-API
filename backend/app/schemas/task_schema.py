@@ -1,0 +1,36 @@
+from datetime import datetime
+
+from pydantic import BaseModel, ConfigDict, Field
+
+from app.models.task import TaskStatus, TaskPriority
+
+
+class TaskCreate(BaseModel):
+    title: str = Field(min_length=1, max_length=200)
+    description: str | None = None
+    status: TaskStatus = TaskStatus.pending
+    priority: TaskPriority = TaskPriority.medium
+    due_date: datetime | None = None
+
+
+class TaskUpdate(BaseModel):
+    """All fields optional — PUT applies only what's provided."""
+    title: str | None = Field(default=None, min_length=1, max_length=200)
+    description: str | None = None
+    status: TaskStatus | None = None
+    priority: TaskPriority | None = None
+    due_date: datetime | None = None
+
+
+class TaskOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    title: str
+    description: str | None
+    status: TaskStatus
+    priority: TaskPriority
+    due_date: datetime | None
+    user_id: int
+    created_at: datetime
+    updated_at: datetime
