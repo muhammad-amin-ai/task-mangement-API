@@ -245,7 +245,7 @@ Data is modeled with SQLAlchemy across two related tables, keeping user accounts
 
 ## 📜 License
 
-**MIT License © 2026 Abdullah Amin**
+**MIT License © 2026 Muhammad Amin**
 
 This project is licensed under the MIT License — meaning it can be freely used, copied, modified, and distributed, including for commercial purposes, as long as the original copyright notice is retained.
 
@@ -255,7 +255,7 @@ This project is licensed under the MIT License — meaning it can be freely used
 
 <div align="center">
 
-**Abdullah Amin**
+**Muhammad Amin**
 
 Backend Developer · Python · FastAPI · AI Enthusiast
 
